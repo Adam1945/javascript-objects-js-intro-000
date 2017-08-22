@@ -1,5 +1,5 @@
 var playlist = {
-  michealJackson = 'billie jean',
+  michealJackson = 'billiejean',
   bobMarley = 'exodus',
   steveWonder = 'superstition'
 };
