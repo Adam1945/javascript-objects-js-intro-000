@@ -1,7 +1,7 @@
 var playlist = {
-  micheal Jackson = 'billie jean',
-  bob marley = 'exodus',
-  steve wonder = 'superstition'
+  michealJackson = 'billie jean',
+  bobMarley = 'exodus',
+  steveWonder = 'superstition'
 };
 
 function updatePlaylist(obj, 'artistName', 'songTitle'){
