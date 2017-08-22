@@ -3,11 +3,11 @@ var playlist = {
   bobMarley: "exodus",
   steveWonder: "superstition"
 };
-
-function updatePlaylist(playlist, 'artistName', 'songTitle'){
-  playlist.artistName = songTitle;
-  return playlist;
-}
+// 
+// function updatePlaylist(playlist, 'artistName', songTitle){
+//   playlist.artistName = songTitle;
+//   return playlist;
+// }
 
 function removeFromPlaylist(playlist, artistName) {
   delete.obj.artistName;
