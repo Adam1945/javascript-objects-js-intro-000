@@ -4,11 +4,11 @@ var playlist = {
   steveWonder = "superstition"
 };
 
-function updatePlaylist(obj, 'artistName', 'songTitle'){
-  obj.artistName = songTitle;
+function updatePlaylist(playlist, 'artistName', 'songTitle'){
+  playlist.artistName = songTitle;
   return obj;
 }
 
-function removeFromPlaylist(obj, artistName) {
+function removeFromPlaylist(playlist, artistName) {
   delete.obj.artistName;
 }
