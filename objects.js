@@ -1,28 +1,15 @@
-// var playlist = {
-//   artist: 'songTitle'
-// };
-//
-// function updatePlaylist(playlist, artistName, songTitle){
-//   playlist.artistName = songTitle;
-//   return playlist;
-// }
-//
-// function removeFromPlaylist(playlist, artistName) {
-//   delete playlist[artistName];
-//   return playlist;
-// }
-
 var playlist = {
-  'Marine Boudeau': 'Something',
-  'Someone else': 'Something else'
-}
+  'Micheal Jackson': 'Billie Jean',
+  'Bob Marley': 'Exodus'
+};
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist.artistName = songTitle;
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist[artistName]
-  return playlist
+  delete playlist[artistName];
+  return playlist;
 }
+
